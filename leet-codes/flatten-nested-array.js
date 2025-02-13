@@ -25,9 +25,9 @@ function flattenArray(arr, n, depth = 0) {
     return flattend;
 }
 
-
 // test for n = 0
 // test for n = 1
 // test for n = 2
 
 console.log(flattenArray(arr, 5));
+console.log(flattenArray(arr, 2));
