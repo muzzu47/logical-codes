@@ -28,8 +28,6 @@ const products = [
     },
   ];
 
-  const filterProducts = products.filter((x) => x.price >= 800);
   const mapProducts = products.map((x) => x.price + 200);
 
-  console.log(filterProducts);
   console.log(mapProducts);
