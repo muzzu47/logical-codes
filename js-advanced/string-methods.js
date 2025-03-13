@@ -18,4 +18,10 @@ function findDuplicateChars(inputString) {
     }
 }
 
-console.log(findDuplicateChars(text));
+function splitInput(inputString) {
+    let result = inputString.split("");
+    return result;
+}
+
+// console.log(findDuplicateChars(text));
+console.log("Split string is :", splitInput(text));
