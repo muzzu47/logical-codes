@@ -24,4 +24,6 @@ function splitInput(inputString) {
 }
 
 // console.log(findDuplicateChars(text));
-console.log("Split string is :", splitInput(text));
+// console.log("Split string is :", splitInput(text));
+
+console.log("Testing local commits", splitInput(text));
