@@ -27,3 +27,4 @@ function splitInput(inputString) {
 // console.log("Split string is :", splitInput(text));
 
 console.log("Testing local commits", splitInput(text));
+console.log("Testing local", splitInput(text));
